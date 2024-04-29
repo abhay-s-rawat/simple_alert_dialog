@@ -1,6 +1,6 @@
 name: simple_alert_dialog
 description: "Created simple alert dialog widget."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/abhay-s-rawat/simple_alert_dialog.git
 
 environment:
@@ -20,6 +20,14 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
 flutter:
   # To add assets to your package, add an assets section, like this:
   assets:
