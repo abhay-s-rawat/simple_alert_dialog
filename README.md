@@ -1,39 +1,37 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+<p >
+<a href="https://www.buymeacoffee.com/abhayrawat" target="_blank"><img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="30px" width= "108px"></a>
+</p>
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+# Simple Alert Dialog
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+Simplest alert dialog widget.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Liked my work ? [support me](https://www.buymeacoffee.com/abhayrawat)
 
-## Features
+## Example
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+for full example please view example/main.dart
 
 ```dart
-const like = 'sample';
+SimpleAlertDialog.show(
+  context,
+  assetImagepath: AnimatedImage.error,
+  buttonsColor: Colors.red,
+  title: AlertTitleText('Are you sure ?'),
+  content: AlertContentText(
+    'Do you really want to delete your account ? You will not be able to undo this action.',
+  ),
+  onConfirmButtonPressed: (ctx) {
+    Navigator.pop(ctx);
+  },
+);
 ```
 
-## Additional information
+## Screenshots
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+![](https://raw.githubusercontent.com/abhay-s-rawat/simple_alert_dialog/main/example/screenshots/Screenshot_1714396322.png)
+![](https://raw.githubusercontent.com/abhay-s-rawat/simple_alert_dialog/main/example/screenshots/Screenshot_1714396382.png)
+![](https://raw.githubusercontent.com/abhay-s-rawat/simple_alert_dialog/main/example/screenshots/Screenshot_1714396386.png)
+![](https://raw.githubusercontent.com/abhay-s-rawat/simple_alert_dialog/main/example/screenshots/Screenshot_1714396389.png)
+![](https://raw.githubusercontent.com/abhay-s-rawat/simple_alert_dialog/main/example/screenshots/Screenshot_1714396393.png)
+![](https://raw.githubusercontent.com/abhay-s-rawat/simple_alert_dialog/main/example/screenshots/Screenshot_1714396396.png)
