@@ -49,6 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   assetImagepath: AnimatedImage.error,
                   buttonsColor: Colors.red,
                   title: AlertTitleText('Are you sure ?'),
+                  confirmationText: "delete",
                   content: AlertContentText(
                     'Do you really want to delete your account ? You will not be able to undo this action.',
                   ),
@@ -65,6 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   context,
                   assetImagepath: AnimatedImage.confirm,
                   buttonsColor: Colors.teal,
+                  confirmationText: "proceed",
                   title: AlertTitleText('Are you sure ?'),
                   content: AlertContentText(
                     'Do you really want to delete your account ? You will not be able to undo this action.',
