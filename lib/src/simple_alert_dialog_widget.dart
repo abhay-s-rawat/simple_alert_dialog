@@ -208,7 +208,7 @@ class _SimpleAlertDialogWidgetState extends State<SimpleAlertDialogWidget> {
                                 child: Text(
                                   widget.cancelBtnText!,
                                   style: TextStyle(
-                                    fontSize: 14,
+                                    fontSize: 13,
                                     color: widget.buttonsColor,
                                     fontWeight: FontWeight.bold,
                                   ),

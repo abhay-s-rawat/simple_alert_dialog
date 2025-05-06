@@ -1,6 +1,6 @@
 name: simple_alert_dialog
 description: "Created simple alert dialog widget."
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/abhay-s-rawat/simple_alert_dialog.git
 
 environment:
