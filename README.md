@@ -18,6 +18,7 @@ SimpleAlertDialog.show(
   assetImagepath: AnimatedImage.error,
   buttonsColor: Colors.red,
   title: AlertTitleText('Are you sure ?'),
+  //confirmationText: "delete", // use this to mandate user to write text before confirmation
   content: AlertContentText(
     'Do you really want to delete your account ? You will not be able to undo this action.',
   ),
